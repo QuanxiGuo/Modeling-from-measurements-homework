@@ -29,7 +29,7 @@ H = np.nan_to_num(H, nan=np.nanmean(H))
 P = np.nan_to_num(P, nan=np.nanmean(P))
 M = np.nan_to_num(M, nan=np.nanmean(M))
 
-dt = 300
+dt = 60
 dT_dt = np.diff(T) / dt
 dH_dt = np.diff(H) / dt
 dP_dt = np.diff(P) / dt
